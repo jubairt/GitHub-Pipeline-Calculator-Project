@@ -140,11 +140,9 @@ pylint --generate-rcfile > .pylintrc
 disable =
     C0114,
     C0116,
-    redefined-outer-name
 ```
 - The above rules were disabled to reduce noise and align with pytest conventions
 - C0114, C0116: Docstrings are less critical for small demo/test files
-- redefined-outer-name: Pylint does not fully understand pytest fixtures
 
 #### Pylint Results
 ```bash
